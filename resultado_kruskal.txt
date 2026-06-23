@@ -1,0 +1,11 @@
+=== RESULTADO DO ALGORITMO DE KRUSKAL ===
+Vértices: 5  |  Arestas do grafo: 7
+
+Arestas da Árvore Geradora Mínima (AGM):
+  (0, 1)  peso = 2
+  (1, 2)  peso = 3
+  (1, 4)  peso = 5
+  (0, 3)  peso = 6
+
+Peso total da AGM: 16
+Grafo CONECTADO
