@@ -81,8 +81,13 @@ ResultadoKruskal kruskal(int V, vector<Aresta>& arestas) {
         if ((int)res.mst.size() == V - 1) break;
     }
 
-    if ((int)res.mst.size() < V - 1)
-        res.conectado = false;
+    int raiz0 = uf.encontrar(0);
+        for (int i = 1; i < V; ++i) {
+            if (uf.encontrar(i) != raiz0) {
+                res.conectado = false;
+                break;
+            }
+}
 
     return res;
 }
