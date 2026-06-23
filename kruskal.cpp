@@ -156,11 +156,6 @@ int main(int argc, char* argv[]) {
     vector<Aresta> arestas;
     string arquivoEntrada;
 
-    cout << "╔══════════════════════════════════════════════╗\n";
-    cout << "║   Algoritmo de Kruskal — Teoria dos Grafos   ║\n";
-    cout << "║   IF Goiano — Campus Rio Verde               ║\n";
-    cout << "╚══════════════════════════════════════════════╝\n\n";
-
     if (argc >= 2) {
         arquivoEntrada = argv[1];
         ifstream fin(arquivoEntrada);
